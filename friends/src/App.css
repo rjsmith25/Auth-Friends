@@ -1,0 +1,111 @@
+input,
+input:focus {
+  outline: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header > .container {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  margin-left: auto;
+  list-style-type: none;
+}
+
+.nav-list li {
+  margin-right: 40px;
+}
+
+.brand-name,
+.nav-list li .nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.brand-name {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.authFriendsForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.authFriendsForm input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+.authFriendsForm button {
+  width: 250px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.friends > .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friend {
+  background-color: #39cccc;
+  width: 30%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.friends-title {
+  text-align: center;
+}
+
+.addFriendform {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.addFriendform input {
+  width: 200px;
+  height: 40px;
+  margin-right: 20px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+.addFriendform button {
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 48px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 28px;
+}
